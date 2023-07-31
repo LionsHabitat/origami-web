@@ -44,14 +44,14 @@ const Main = (props: MainProps) => {
           <a
             href="https://docs.oracleorigami.com"
             target="_blank"
-            className="mx-5 border-none text-gray-900"
+            className="mx-5 border-none text-gray-900 xl:mr-10"
           >
             Documentation
           </a>
           <a
             href="https://discord.gg/bTY9WkQv"
             target="_blank"
-            className="mr-5 border-none text-gray-900"
+            className="mr-5 border-none text-gray-900 xl:mr-10"
           >
             Community
           </a>
