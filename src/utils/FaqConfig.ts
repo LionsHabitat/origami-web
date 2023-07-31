@@ -80,4 +80,4 @@ const faq: QuestionAnswer[] = [
     answer: `Custom oracles are versatile solutions that don't fit predefined categories. They can be tailored to meet specific needs across various applications, offering endless possibilities for creativity and personalization. While they might be unique, custom oracles still fall into the feed-based or on-demand oracle models.`,
   },
 ]
-export default faq 
+export default faq
