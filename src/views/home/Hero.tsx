@@ -47,30 +47,30 @@ const Hero = () => {
               Web3&apos;s Modular Open Oracle.
             </h1>
             <div className="grid grid-cols-2 gap-12 sm:grid-cols-4 sm:gap-6">
-              <a href="#learn" className="border-none">
+              <button type="button" className="border-none">
                 <span className="text-slate-500 sm:text-lg">学び</span>
                 <br />
                 <span className="text-xl text-gray-900 sm:text-2xl">Learn</span>
-              </a>
-              <a href="#integrate" className="border-none">
+              </button>
+              <button type="button" className="border-none">
                 <span className="text-slate-500 sm:text-lg">統合</span>
                 <br />
                 <span className="text-xl text-gray-900 sm:text-2xl">
                   Integrate
                 </span>
-              </a>
-              <a href="#build" className="border-none">
+              </button>
+              <button type="button" className="border-none">
                 <span className="text-slate-500 sm:text-lg">建てる</span>
                 <br />
                 <span className="text-xl text-gray-900 sm:text-2xl">Build</span>
-              </a>
-              <a href="#connect" className="border-none">
+              </button>
+              <button type="button" className="border-none">
                 <span className="text-slate-500 sm:text-lg">接する</span>
                 <br />
                 <span className="text-xl text-gray-900 sm:text-2xl">
                   Connect
                 </span>
-              </a>
+              </button>
             </div>
           </div>
           <Dot />
