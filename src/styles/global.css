@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Poppins&family=Roboto+Slab:wght@400;500&display=swap');
+
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+html,
+body,
+body > div:first-child,
+div#__next {
+  height: 100%;
+}
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+.bg-beige-1 {
+  background-color: #FDF4E5;
+}
+
+.bg-beige-2 {
+  background-color: #F6E9D3;
+}
+
+.bg-beige-3 {
+  background-color: #FCD793;
+}
