@@ -17,7 +17,9 @@ const Modal = ({
 }: ModalProps): ReactNode => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
-      <div
+      <button
+        type="button"
+        aria-label="Close modal"
         className="absolute inset-0 z-10 bg-gray-500/50 backdrop-blur"
         onClick={onClose}
       />
