@@ -19,7 +19,7 @@ const Faq = () => (
         Have a different question and can&apos;t find the answer you&apos;re
         looking for? Reach out to our discord{' '}
         <a
-          href="https://discord.gg/bTY9WkQv"
+          href="https://discord.gg/sjWftPne"
           target="_blank"
           className="border-none text-gray-600"
         >

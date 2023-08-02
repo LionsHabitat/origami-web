@@ -49,7 +49,7 @@ const Main = (props: MainProps) => {
             Documentation
           </a>
           <a
-            href="https://discord.gg/bTY9WkQv"
+            href="https://discord.gg/sjWftPne"
             target="_blank"
             className="mr-5 border-none text-gray-900 xl:mr-10"
           >
