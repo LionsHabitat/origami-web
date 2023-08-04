@@ -11,7 +11,7 @@ const Index = () => {
     <Main
       meta={
         <Meta
-          title="Open Oracle origami"
+          title="Open Oracle Origami"
           description="Any Form, Any Shape. Web3's Modular Open Oracle."
         />
       }
