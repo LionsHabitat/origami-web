@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="p-3 text-center sm:p-16">
+    <div className="mx-auto max-w-screen-2xl p-3 text-center sm:p-16">
       <h2 className="font-serif text-2xl font-medium text-gray-900 lg:text-5xl">
         The Only Public Good, <br className="sm:hidden" />
         Free Market Oracle
@@ -58,7 +58,10 @@ const About = () => {
             Meme Team
           </h4>
           <p className="text-lg">
-            Code shared, wisdom flows,Meme magic spreads through the vibe,
+            Code shared, wisdom flows,
+            <br />
+            Meme magic spreads through the vibe,
+            <br />
             Cypherpunk&apos;s soul thrives.
             <br />
             <br />
