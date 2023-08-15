@@ -61,6 +61,38 @@ const Main = (props: MainProps) => {
         </div>
       </header>
       {props.children}
+      <footer className="items-center justify-center space-y-3 bg-black px-8 py-12 text-center sm:flex-row sm:space-y-0 sm:px-16 sm:py-24 sm:text-left">
+        <img
+          className="mx-auto w-auto"
+          src={`${router.basePath}/assets/images/open-oracle-origami-icon-white.svg`}
+          alt="Open Oracle Origami Icon"
+        />
+        <p className="pt-6 text-center leading-loose text-white">
+          Copyright &copy; {new Date().getFullYear()} CreaseLabs. All rights
+          reserved.
+        </p>
+        <div className="w-full pt-3 text-center text-white">
+          <a
+            href="https://docs.oracleorigami.com"
+            target="_blank"
+            className="text-white"
+          >
+            Documentation
+          </a>
+          <span className="px-3 font-bold text-white">&bull;</span>
+          <a
+            href="https://discord.gg/sjWftPne"
+            target="_blank"
+            className="text-white"
+          >
+            Community
+          </a>
+          <span className="px-3 font-bold text-white">&bull;</span>
+          <Link href="/faq/" className="text-white">
+            FAQ
+          </Link>
+        </div>
+      </footer>
     </>
   )
 }
