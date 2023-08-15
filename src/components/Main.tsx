@@ -68,7 +68,7 @@ const Main = (props: MainProps) => {
           alt="Open Oracle Origami Icon"
         />
         <p className="pt-6 text-center leading-loose text-white">
-          Copyright &copy; {new Date().getFullYear()} CreaseLabs. All rights
+          Copyright &copy; {new Date().getFullYear()} Crease Labs. All rights
           reserved.
         </p>
         <div className="w-full pt-3 text-center text-white">
