@@ -2,7 +2,6 @@ import Main from '@/components/Main'
 import Meta from '@/components/Meta'
 import About from '@/views/home/About'
 import Hero from '@/views/home/Hero'
-import Networks from '@/views/home/Networks'
 import Providers from '@/views/home/Providers'
 import Shapes from '@/views/home/Shapes'
 
@@ -19,7 +18,7 @@ const Index = () => {
       <Hero />
       <Shapes />
       <About />
-      <Networks />
+      {/* <Networks /> */}
       <Providers />
     </Main>
   )
